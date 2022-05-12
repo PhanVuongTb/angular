@@ -1,0 +1,1 @@
+export interface const ProductsType : {id: number, name: string, price: number, status: boolean}

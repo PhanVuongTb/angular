@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, Component } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -7,6 +7,8 @@ import { HeloComponent } from './hello/hello.component';
 import { HelloComponent } from './components/hello/hello.component';
 import { Hello2Component } from './components/hello2/hello2.component';
 import { ProductsComponent } from './Page/products/products.component';
+import { HeaderComponent } from './components/header/header.component';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -16,11 +18,14 @@ import { ProductsComponent } from './Page/products/products.component';
     HeloComponent,
     HelloComponent,
     Hello2Component,
-    ProductsComponent
+    ProductsComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    Component
   ],
   providers: [],
   bootstrap: [AppComponent]

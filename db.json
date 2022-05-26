@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Product A",
+      "price": 100,
+      "status": true
+    },
+    {
+      "id": 2,
+      "name": "Product B",
+      "price": 200,
+      "status": true
+    },
+    {
+      "id": 33,
+      "name": "Product C",
+      "price": 200,
+      "status": true
+    },
+    {
+      "name": "Búp bê Baby",
+      "price": 1,
+      "status": true,
+      "id": 34
+    }
+  ]
+}

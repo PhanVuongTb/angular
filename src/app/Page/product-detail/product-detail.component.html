@@ -1,0 +1,10 @@
+<div class="detail" *ngIf="productDetail">
+  <hr />
+  <h2>Product Detail Component</h2>
+  <tr>
+    <td>{{ product.id }}</td>
+    <td>{{ product.name }}</td>
+    <td>{{ product.price }}</td>
+    <td>{{ product.status ? "Còn hàng" : "hết hàng" }}</td>
+  </tr>
+</div>
